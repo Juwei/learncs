@@ -11,7 +11,6 @@ namespace GetStart.Test
             Person Me = new Person();
             Me.FirstName = "Juwei";
             Me.LastName = "Shi";
-
             Assert.AreEqual("Juwei\tShi", Me.ToString());
         }
     }
