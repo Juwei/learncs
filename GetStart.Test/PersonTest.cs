@@ -12,7 +12,7 @@ namespace GetStart.Test
             Me.FirstName = "Juwei";
             Me.LastName = "Shi";
 
-            Assert.AreEqual("Juwei Shi", Me.ToString());
+            Assert.AreEqual("Juwei\tShi", Me.ToString());
         }
     }
 }
