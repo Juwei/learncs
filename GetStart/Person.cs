@@ -9,7 +9,7 @@ namespace GetStart
         public string LastName {get;set;}
 
         public override string ToString(){
-            return this.FirstName + " " + this.LastName;
+            return this.FirstName + "\t" + this.LastName;
         }
     }
 }
