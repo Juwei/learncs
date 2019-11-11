@@ -12,7 +12,10 @@ namespace GetStart.Test
             me.FirstName = "Juwei";
             me.LastName = "Shi";
             Assert.AreEqual("Juwei\tShi", me.ToString());
-            Assert.AreEqual(8, me.LetterCount());
+            Assert.AreEqual(8, me.LetterCountSum());
+            Assert.AreEqual(4, me.LetterCountAvg());
+            Assert.AreEqual(5, me.LetterCountMax());
+            Assert.AreEqual(3, me.LetterCountMin());
         }
     }
 }
