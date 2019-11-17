@@ -12,7 +12,7 @@ namespace GetStart.Test
             apple.Name = "apple";
             apple.Price = 15;
             Assert.AreEqual("apple:15", apple.ToString());
-            Assert.AreEqual("My extension print: apple:15", apple.printMyFood());
+            Assert.AreEqual("[Extension Print] apple:15", apple.ToStringExt());
         }
     }
 }

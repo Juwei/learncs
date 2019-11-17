@@ -4,8 +4,8 @@ namespace GetStart
 {
     public static class FoodExtensions
     {
-        public static string printMyFood(this Food food){
-            return "My extension print: "+food.Name+":"+food.Price;;
+        public static string ToStringExt(this Food food){
+            return "[Extension Print] "+food.Name+":"+food.Price;;
         }
     }
 }
