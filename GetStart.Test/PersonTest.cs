@@ -16,6 +16,8 @@ namespace GetStart.Test
             Assert.AreEqual(4, me.LetterCountAvg());
             Assert.AreEqual(5, me.LetterCountMax());
             Assert.AreEqual(3, me.LetterCountMin());
+
+
         }
     }
 }

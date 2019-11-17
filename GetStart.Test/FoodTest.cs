@@ -8,10 +8,11 @@ namespace GetStart.Test
         [TestMethod]
         public void FoodTest_Normal()
         {
-            Food Apple = new Food();
-            Apple.Name = "Apple";
-            Apple.Price = 15;
-            Assert.AreEqual("Apple:15", Apple.ToString());
+            Food apple = new Food();
+            apple.Name = "apple";
+            apple.Price = 15;
+            Assert.AreEqual("apple:15", apple.ToString());
+            Assert.AreEqual("My extension print: apple:15", apple.printMyFood());
         }
     }
 }
